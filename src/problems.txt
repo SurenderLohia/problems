@@ -1,0 +1,4 @@
+1. Factorial
+2. Second Largest Number
+3. Flip Characters (eg: SuReN => sUrEn)
+4. Word counts
