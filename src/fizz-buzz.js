@@ -5,23 +5,25 @@ function fizzBuzz(n) {
     }
   }
 
-  let result;
+  let result = '';
 
-  for(let i = 1; i < n; i++) {
+  for(let i = 1; i <= n; i++) {
     if(isMultiplyByNumber(i)(3) && isMultiplyByNumber(i)(5)) {
-      result = 'FizzBuzz';
+      result += ' FizzBuzz';
     } else if(isMultiplyByNumber(i)(3)) {
-      result = 'Fizz';
+      result += ' Fizz';
     } else if(isMultiplyByNumber(i)(5)) {
-      result = 'Buzz';
+      result += ' Buzz';
     }
     else {
-      result = i;
+      result += ' ' + i;
     }
-
-    console.log(result);
   }
+
+  return result;
 }
+
+module.exports = fizzBuzz;
 
 // Test
 fizzBuzz(16);
