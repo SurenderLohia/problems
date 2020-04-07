@@ -2,3 +2,10 @@
 2. Second Largest Number
 3. Flip Characters (eg: SuReN => sUrEn)
 4. Word counts
+
+
+5. Palindrome
+6. Fizbuzz
+7. Anagram
+8. Find the vowels
+9. Fiboacci
