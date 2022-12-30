@@ -9,7 +9,7 @@
   "author": "Surender Lohia",
   "license": "ISC",
   "devDependencies": {
-    "mocha": "^7.1.0"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "chai": "^4.2.0"
